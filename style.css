@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.801)),url(77734-neon-city-artist-artwork-digital-art-hd-buildings-4k-behance-cyberpunk.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar ul li a :hover{
+    text-decoration: underline;
+
+
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: white;
+    text-align: center;
+}
+.content h1{
+    font-size: 65px;
+}
+.content p{
+    margin: 20px auto;
+}
+button{
+    width: 200px;
+    border-radius: 35px;
+    padding: 15px 0;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #850000;
+    font-size: 15px;
+    transition: all 1s;
+}
+button:hover{
+    color: black;
+    transition: all 1s;
+}
+.navbar ul li a{
+    color: white;
+    transition: all 1s;  
+}
+.navbar ul li a :hover{
+    transition: all 1s;
+    color: #850000;
+}
+h1{
+    
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 125px;
+    text-shadow:
+    0 0 5px #fff, 
+    0 0 10px #fff,
+    0 0 15px #0073e6, 
+    0 0 20px #0073e6, 
+    0 0 25px #0073e6, 
+    0 0 30px #0073e6, 
+    0 0 35px #0073e6;
+    
+}
+
+.yazi 
+{
+  text-decoration:none;
+  position:relative;
+}
+.yazi::before 
+{
+  content:'';
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:0px;
+  height:3px;
+  background:rgb(255, 0, 0);
+  opacity:0;
+  -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+
+.yazi:hover:before
+{
+  opacity:1;
+  width:100%;
+}
